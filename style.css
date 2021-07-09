@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-dark .container-fluid img{
+    width: 7%;
+    padding: 10px;
+}
+
+.fa-search{
+    color: black;
+}
