@@ -5,10 +5,18 @@
 }
 
 .navbar-dark .container-fluid img{
-    width: 7%;
+    width: 150px;
     padding: 10px;
+}
+
+.navbar-brand img{
+    width: 80px;
 }
 
 .fa-search{
     color: black;
+}
+
+.dropdown-menu li{
+    font-size: 20px;
 }

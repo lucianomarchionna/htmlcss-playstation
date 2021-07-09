@@ -21,14 +21,14 @@
 
         <section id="my_header_bot">
             <header class="my_white_color fixed border-bottom">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <nav class="navbar navbar-expand-md navbar-light bg-light fs-4">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="Logo Playstation"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mb-lg-0">
+                            <ul class="navbar-nav me-auto mb-lg-0">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -71,6 +71,7 @@
                                         <li><hr class="dropdown-divider"></li>
                                         <li><a class="dropdown-item" href="#">Link</a></li>
                                         <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Link</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -78,20 +79,24 @@
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                         <li><a class="dropdown-item" href="#">Link</a></li>
                                     </ul>
-                                </li>    
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                        <li><a class="dropdown-item" href="#">Link</a></li>
-                                        <li><a class="dropdown-item" href="#">Link</a></li>
-                                        <li><a class="dropdown-item" href="#">Link</a></li>
-                                    </ul>
                                 </li>
-                                <form class="d-flex">
-                                    <button class="btn btn-outline-dark rounded-pill" type="submit">Accedi</button>
-                                    <a href="#" class="dark"><i class="fas fa-search"></i></a>
-                                </form>
                             </ul>
+                            <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center">
+                                <ul class="navbar-nav me-auto mb-lg-0 pe-3">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                            <li><a class="dropdown-item" href="#">Link</a></li>
+                                            <li><a class="dropdown-item" href="#">Link</a></li>
+                                            <li><a class="dropdown-item" href="#">Link</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <formn class="me-3">
+                                    <button class="btn btn-dark rounded-pill fs-4" type="submit">Accedi</button>
+                                </form>
+                                <a href="#"><i class="fas fa-search"></i></a>
+                            </div>
                         </div>
                     </div>
                 </nav>
