@@ -73,4 +73,13 @@
     opacity: 100%;
     border-bottom: 1px solid rgb(0,112,209);
 }
+
+.new_exit{
+    color: white;
+    background-color: rgb(31, 31, 31);
+}
+
+.max_height{
+    max-height: 365px;
+}
 /* playstation 5 */
