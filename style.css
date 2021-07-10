@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* navbar */
 .navbar-dark .container-fluid img{
     width: 150px;
     padding: 10px;
@@ -20,7 +21,8 @@
 .dropdown-menu li{
     font-size: 20px;
 }
-
+/* navbar */
+/* banner returnal */
 .my_container_30{
     width: 30%;
 }
@@ -37,9 +39,38 @@
 .col-12 img{
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .my_border_radius{
     border-radius: 30px;
+}
+/* banner returnal */
+/* playstation 5 */
+.color_light_blue{
+    color: rgb(0,112,209);
+}
+
+.color_grey{
+    color: grey;
+}
+
+.my_container_60{
+    width: 60%;
+    margin-left: 25%;
+}
+
+.col-10 img{
+    width: 100%;
+    height: 100%;
     cursor: pointer;
 }
+.my_opacity{
+    opacity: 70%;
+}
+
+.img_ps5:hover{
+    opacity: 100%;
+    border-bottom: 1px solid rgb(0,112,209);
+}
+/* playstation 5 */
