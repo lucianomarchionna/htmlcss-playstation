@@ -65,6 +65,7 @@
     height: 100%;
     cursor: pointer;
 }
+
 .my_opacity{
     opacity: 70%;
 }
@@ -83,3 +84,20 @@
     max-height: 365px;
 }
 /* playstation 5 */
+.my_margin_bot{
+    margin-bottom: 180px;
+}
+/* playstation plus */
+.playstation-plus{
+    background-color: rgb(190,188,187);
+}
+
+#plus_logo{
+    width: 1000px;
+    height: 200px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
