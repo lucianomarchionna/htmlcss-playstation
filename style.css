@@ -101,3 +101,7 @@
     display: flex;
     flex-direction: column;
 }
+
+.my_padding{
+    padding: 10px;
+}
