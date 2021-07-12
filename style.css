@@ -105,3 +105,13 @@
 .my_padding{
     padding: 10px;
 }
+/* playstation plus */
+/* playstation now */
+.playstation-now{
+    background-color: rgb(22,28,59);
+}
+
+#now_logo{
+    width: 1000px;
+    height: 200px;
+}
